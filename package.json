@@ -1,0 +1,24 @@
+{
+  "name": "y-server",
+  "version": "0.0.1",
+  "author": "yued-fe",
+  "license": "MIT",
+  "description": "Start Server Simpler",
+  "main": "./lib/y-server.js",
+  "bin": {
+    "y-server": "./bin/y-server.js"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.15.3",
+    "minimist": "^1.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
