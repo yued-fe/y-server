@@ -24,7 +24,7 @@ y-server [--config other-dir/y-server.config.js]
 
 JS用法
 ```bash
-var yServer = require('../lib/y-server.js');
+const yServer = require('../lib/y-server.js');
 
 yServer.run({
   port: 8888,
