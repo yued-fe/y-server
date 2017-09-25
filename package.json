@@ -1,10 +1,14 @@
 {
   "name": "y-server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "yued-fe",
   "license": "MIT",
   "description": "Start Server Simpler",
   "main": "./lib/y-server.js",
+  "engines": {
+    "node": ">=6.0",
+    "npm": ">=3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yued-fe/y-server.git"
