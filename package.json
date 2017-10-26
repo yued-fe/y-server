@@ -1,6 +1,6 @@
 {
   "name": "y-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "yued-fe",
   "license": "MIT",
   "description": "Start Server Simpler",
@@ -28,5 +28,8 @@
     "express": "^4.15.3",
     "minimist": "^1.2.0",
     "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "y-server-plugin-static": "0.0.2"
   }
 }

@@ -1,13 +1,14 @@
-'use strict';
-
 module.exports = {
   plugins: [
+    {
+      $name: 'static',
+      staticPaths: __dirname,
+    },
     function (app) {
       console.log('plugin installed'); // eslint-disable-line no-console
 
-      app.use((req, res, next) => {
-        console.log('plugin valid'); // eslint-disable-line no-console
-        res.end();
+      app.get('/', (req, res, next) => {
+        res.send('plugin valid');
       });
     },
   ],
