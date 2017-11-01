@@ -24,13 +24,17 @@ y-server [--config other-dir/y-server.config.js]
 
 JS用法
 ```bash
-const yServer = require('../lib/y-server.js');
+const yServer = require('y-server');
 
-yServer.run({
+// 普通模式
+yServer({
   port: 8888,
   watch: [],
   plugins: [],
 });
+
+// 热启动模式
+yServer.run('y-server.config.js');
 ```
 
 ## 配置
