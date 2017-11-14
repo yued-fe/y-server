@@ -1,6 +1,6 @@
 {
   "name": "y-server",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "yued-fe",
   "license": "MIT",
   "description": "Start Server Simpler",
@@ -31,6 +31,6 @@
     "require-relative": "^0.8.7"
   },
   "devDependencies": {
-    "y-server-plugin-static": "0.0.3"
+    "y-server-plugin-static": "~0.0.3"
   }
 }
